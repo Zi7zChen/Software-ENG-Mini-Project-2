@@ -6,3 +6,28 @@
   max-height: 400px;
   overflow: auto;
 }
+body{
+	background:url(http://news.ufl.edu/media/newsufledu/images/2017/06/Century-Tower.jpg);
+}
+.form{
+	 background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfQAauxtcPRpuz_1haer9JP2ThuOh9eoiEWtRLhHKaAjH00ZF1);
+}
+
+.jumbotron{
+	background-color: #649adb;
+}
+.listing-head{
+	background-color: #eda655;
+}
+
+table, th , td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+th {
+  background-color: #8fb7c1;
+  color: white;
+}
+tr:nth-child(odd) td{ background-color: #98ceaf; }
+tr:nth-child(even) td{ background-color: #81cdd1; }
